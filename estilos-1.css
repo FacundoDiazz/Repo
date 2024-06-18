@@ -1,0 +1,90 @@
+
+.titulo{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    background-color: rgb(188, 18, 89) ;
+    border-right: 3px white solid;
+    border-left: 3px white solid;
+    line-height: 75px;
+    margin:5%;    
+}
+.main{
+   
+    margin: 5%;
+    background-color:rgb(188, 18, 89) ;
+    height: 120%;
+}
+.h2{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    pointer-events: all;
+}
+img{
+    width: 100%;
+    height: auto;
+    
+}
+.imgMario{   
+    background-color: white ;
+    right: 110%;
+
+}
+.imgMortal{
+    background-color: white ;
+    right: 110%;
+}
+.h3{
+    color:rgb(188, 18, 89);
+    text-align: right;
+   border-bottom-style:dotted ;
+}
+
+.comprar{
+    text-align: center;
+    background: rgb(44, 143, 32);
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+}
+.footer{
+    margin: 5%;
+    background-color: rgb(220, 138, 175);
+    text-align: center;
+    line-height: 55px;
+}
+.infomortal{
+    text-align: center;   
+}
+.infomario{
+    text-align: center;
+}
+.Tmortal{
+    font-family: Arial, Helvetica, sans-serif;
+    color:  rgb(254, 197, 1);
+    text-align: center;
+    background-color: rgb(15, 10, 12) ;
+    border-right: 3px rgb(254, 197, 1) solid;
+    border-left: 3px rgb(254, 197, 1) solid;
+    line-height: 75px;
+    margin:5%;    
+}
+.h2mortal{
+    font-size:30px;
+}
+.mainmortal{
+    text-align: center;
+    background-color: rgb(15, 10, 12) ;
+    color: rgb(254, 197, 1) ;
+    margin:5%;
+}
+.imagenes{
+    width: 40%;
+    display: flex;
+    border: 3px rgb(254, 197, 1);
+}
+.botonmo{
+    text-align: center;
+    color: black;
+    
+}
