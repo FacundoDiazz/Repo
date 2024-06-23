@@ -14,7 +14,6 @@ body{
     margin:5%;    
 }
 .main{
-   
     margin: 5%;
     background-color:rgb(188, 18, 89) ;
     height: 120%;
@@ -29,13 +28,11 @@ body{
 }
 
 .mario{
-  margin: px;
-  width: 100%;
-  height: 100%;
+    width: 100%;
+    height: 100%;
     
 }
 .cajaPrincipal {
-   
     border-radius: 25px;
     padding-bottom: 30px;
 }
@@ -45,7 +42,6 @@ body{
     margin-right: 10px;
     border: none;
     border-radius: 6px;
-   
 }
 p {
     font-size: 10px;
@@ -55,12 +51,11 @@ p {
 .nombreJuego{
     color:rgb(188, 18, 89);
     text-align: right;
-   border-bottom-style:dotted ;
-   margin-right: 10px;
+    border-bottom-style:dotted ;
+    margin-right: 10px;
 }
 
 .kombat{
-    margin: px;
     width: 100%;
     height: 100%;
 }
@@ -99,6 +94,13 @@ p {
 .infomario{
     text-align: center;
 }
+
+/* Página Mortal Kombat*/
+
+.fondoDos{
+    background-color: black;
+}
+
 .Tmortal{
     font-family: Arial, Helvetica, sans-serif;
     color:  rgb(254, 197, 1);
@@ -111,20 +113,149 @@ p {
 }
 .h2mortal{
     font-size:30px;
+    color: rgb(254, 197, 1);
 }
-.mainmortal{
+.mainMortal{
     text-align: center;
-    background-color: rgb(15, 10, 12) ;
-    color: rgb(254, 197, 1) ;
+    background-color: black;
     margin:5%;
 }
+
+.mainMortal p {
+    color: rgb(254, 197, 1) ;
+    font-size: 15px;
+}
+
 .imagenes{
     width: 40%;
     display: flex;
     border: 3px rgb(254, 197, 1);
 }
-.botonmo{
+.botonMo{
     text-align: center;
     color: black;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    background-color: rgb(254, 197, 1);
+}
+.contenedor {
+    max-width: 100%;
+    margin: 0 auto;
+}
+.contenedor img {
+    max-width: 100%;
+    height: auto; 
+    display: block; 
+    margin: 5px;
+}
+
+  /* Página Super Mario*/
+.fondoTres{
+    background-image: url(./img/FondoMario.png) ;
+    background-size:cover; 
+    background-repeat: no-repeat; 
+
+}
+nav {
+    max-width: 100%;
+    height: 50px; 
+}
+.barraNav {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px; 
+    margin-bottom: 30px;
+}
+ul {
+    list-style-type: none; 
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+}
+li {
+    margin: 0px 20px;
+    color: cadetblue;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 25px;
+}
+a {
+    text-decoration: none;
+    color: cadetblue;
+}
+.contenedorImg {
+    background-color: white;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    border: none;
+    border-radius: 6px;
+    padding: 20px; 
+}
+.img2 {
+    width: 100%;
+    height: 600px;
+}
+.tituloMario {
     
+        font-family: "Bebas Neue", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        text-align: center;
+        font-size: 80px;
+        color: rgba(17, 16, 16, 0.703);
+        margin-bottom: 20px;
+}
+.infoJuego h2 {
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 35px;
+    color: rgba(17, 16, 16, 0.749);
+    background-color: rgba(17, 16, 16, 0.703);
+    color: white;
+    margin-right: 10rem;
+    margin-left: 10rem;
+    border: none;
+    border-radius: 6px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.infoJuego p {
+    font-size: 20px;
+    margin-right: 10rem;
+    margin-left: 10rem;
+    font-family: Helvetica, Arial;
+    text-align:center;
+    color: rgb(84, 83, 83);
+}
+.contenedorImagenes {
+    justify-content: center; 
+    align-items: center;  
+    display: flex; 
+}
+.contenedorImagenes img {
+    max-width: 100%; 
+    height: 400px; 
+    margin: 0 10px; 
+}
+.ultimoTitulo {
+        font-family: "Bebas Neue", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        text-align: center;
+        font-size: 80px;
+        color: rgba(17, 16, 17, 0.703);
+        margin-bottom: 20px;
+}
+h4 {
+    font-family: Helvetica, Arial;
+    text-align:center;
+    background-color: white;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border: none;
+    border-radius: 6px;
+    color:cadetblue;
+    margin-top: 50px;
 }
